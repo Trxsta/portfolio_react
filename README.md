@@ -28,9 +28,6 @@ A professional React-based portfolio website designed to showcase personal proje
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/Trxsta/portfolio_react.git
-cd portfolio_react
 
 # Install dependencies
 npm install
@@ -38,27 +35,6 @@ npm install
 # Start development server
 npm run dev
 ```
-
-## Deployment to GitHub Pages
-
-This project includes a deployment script that makes it easy to deploy to GitHub Pages:
-
-```bash
-# Make the deployment script executable
-chmod +x deploy-to-github.sh
-
-# Run the deployment script
-./deploy-to-github.sh
-```
-
-The script will:
-1. Build the project with the correct base path
-2. Create/switch to the gh-pages branch
-3. Copy the build files to the root
-4. Add the necessary .nojekyll file
-5. Commit and push the changes
-
-After running the script, your site will be available at: https://trxsta.github.io/portfolio_react/
 
 ## Credits
 
